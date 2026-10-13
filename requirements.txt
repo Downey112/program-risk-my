@@ -1,0 +1,9 @@
+numpy>=2.0
+pandas>=2.2
+pdfplumber>=0.11
+pypdfium2>=4.30
+requests>=2.31
+matplotlib>=3.9
+plotly>=5.22
+streamlit>=1.40
+pytest>=8.0

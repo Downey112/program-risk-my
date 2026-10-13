@@ -1,0 +1,67 @@
+year,field,nw_rate,source,national_nw_rate,gap,label
+2020,agriculture,0.23399999999999999,"SKPG 2024 report, Table 8h",0.16399999999999998,0.4429011308776134,Agriculture & Veterinary
+2021,agriculture,0.231,"SKPG 2024 report, Table 8h",0.14800000000000002,0.54770099408135,Agriculture & Veterinary
+2022,agriculture,0.134,"SKPG 2024 report, Table 8h",0.08900000000000001,0.45986141891629484,Agriculture & Veterinary
+2023,agriculture,0.139,"SKPG 2024 report, Table 8h",0.091,0.47786501636359,Agriculture & Veterinary
+2024,agriculture,0.1,"SKPG 2024 report, Table 8h",0.075,0.31508104663989567,Agriculture & Veterinary
+2025,agriculture,0.115,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,0.4431682960044889,Agriculture & Veterinary
+2020,arts_humanities,0.185,"SKPG 2024 report, Table 8h",0.16399999999999998,0.14592989709796567,Arts & Humanities
+2021,arts_humanities,0.16399999999999998,"SKPG 2024 report, Table 8h",0.14800000000000002,0.12161206780469702,Arts & Humanities
+2022,arts_humanities,0.10400000000000001,"SKPG 2024 report, Table 8h",0.08900000000000001,0.1723570136942607,Arts & Humanities
+2023,arts_humanities,0.11800000000000001,"SKPG 2024 report, Table 8h",0.091,0.28997815611950273,Arts & Humanities
+2024,arts_humanities,0.092,"SKPG 2024 report, Table 8h",0.075,0.22284982242386198,Arts & Humanities
+2025,arts_humanities,0.1,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,0.2865992353129494,Arts & Humanities
+2020,business_law,0.16699999999999998,"SKPG 2024 report, Table 8h",0.16399999999999998,0.02172235551041579,"Business, Administration & Law"
+2021,business_law,0.159,"SKPG 2024 report, Table 8h",0.14800000000000002,0.08468679531248391,"Business, Administration & Law"
+2022,business_law,0.09699999999999999,"SKPG 2024 report, Table 8h",0.08900000000000001,0.09489495261421599,"Business, Administration & Law"
+2023,business_law,0.09699999999999999,"SKPG 2024 report, Table 8h",0.091,0.07047401274702647,"Business, Administration & Law"
+2024,business_law,0.078,"SKPG 2024 report, Table 8h",0.075,0.042469227109112495,"Business, Administration & Law"
+2025,business_law,0.08,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,0.04147677727996424,"Business, Administration & Law"
+2020,education,0.163,"SKPG 2024 report, Table 8h",0.16399999999999998,-0.007311684422209419,Education
+2021,education,0.165,"SKPG 2024 report, Table 8h",0.14800000000000002,0.12888800211492568,Education
+2022,education,0.08800000000000001,"SKPG 2024 report, Table 8h",0.08900000000000001,-0.012396648068306426,Education
+2023,education,0.115,"SKPG 2024 report, Table 8h",0.091,0.26083007101594946,Education
+2024,education,0.102,"SKPG 2024 report, Table 8h",0.075,0.3371083689581864,Education
+2025,education,0.11599999999999999,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,0.45295694111788976,Education
+2020,engineering,0.145,"SKPG 2024 report, Table 8h",0.16399999999999998,-0.14560554125568248,"Engineering, Manufacturing & Construction"
+2021,engineering,0.11900000000000001,"SKPG 2024 report, Table 8h",0.14800000000000002,-0.2515598797594498,"Engineering, Manufacturing & Construction"
+2022,engineering,0.071,"SKPG 2024 report, Table 8h",0.08900000000000001,-0.2455223342447046,"Engineering, Manufacturing & Construction"
+2023,engineering,0.063,"SKPG 2024 report, Table 8h",0.091,-0.3980629681862604,"Engineering, Manufacturing & Construction"
+2024,engineering,0.051,"SKPG 2024 report, Table 8h",0.075,-0.4112775419094872,"Engineering, Manufacturing & Construction"
+2025,engineering,0.043,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,-0.6187794631102235,"Engineering, Manufacturing & Construction"
+2020,health,0.16,"SKPG 2024 report, Table 8h",0.16399999999999998,-0.029465891343028794,Health & Welfare
+2021,health,0.11699999999999999,"SKPG 2024 report, Table 8h",0.14800000000000002,-0.2707770127410034,Health & Welfare
+2022,health,0.085,"SKPG 2024 report, Table 8h",0.08900000000000001,-0.05036628125738618,Health & Welfare
+2023,health,0.087,"SKPG 2024 report, Table 8h",0.091,-0.049342174279755735,Health & Welfare
+2024,health,0.07400000000000001,"SKPG 2024 report, Table 8h",0.075,-0.014503517465894511,Health & Welfare
+2025,health,0.07,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,-0.10286553144877386,Health & Welfare
+2020,ict,0.142,"SKPG 2024 report, Table 8h",0.16399999999999998,-0.1700148566261983,Information & Communication Technologies
+2021,ict,0.127,"SKPG 2024 report, Table 8h",0.14800000000000002,-0.17737421631581052,Information & Communication Technologies
+2022,ict,0.077,"SKPG 2024 report, Table 8h",0.08900000000000001,-0.15791728512134995,Information & Communication Technologies
+2023,ict,0.077,"SKPG 2024 report, Table 8h",0.091,-0.18233822498853947,Information & Communication Technologies
+2024,ict,0.063,"SKPG 2024 report, Table 8h",0.075,-0.18724293187077468,Information & Communication Technologies
+2025,ict,0.075,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,-0.02848181132694627,Information & Communication Technologies
+2020,natural_sciences,0.21899999999999997,"SKPG 2024 report, Table 8h",0.16399999999999998,0.35725876523731803,"Natural Sciences, Maths & Statistics"
+2021,natural_sciences,0.163,"SKPG 2024 report, Table 8h",0.14800000000000002,0.1143003833824876,"Natural Sciences, Maths & Statistics"
+2022,natural_sciences,0.105,"SKPG 2024 report, Table 8h",0.08900000000000001,0.18304315941048666,"Natural Sciences, Maths & Statistics"
+2023,natural_sciences,0.096,"SKPG 2024 report, Table 8h",0.091,0.05900441873628859,"Natural Sciences, Maths & Statistics"
+2024,natural_sciences,0.075,"SKPG 2024 report, Table 8h",0.075,0.0,"Natural Sciences, Maths & Statistics"
+2025,natural_sciences,0.079,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,0.027811628860883175,"Natural Sciences, Maths & Statistics"
+2020,services,0.165,"SKPG 2024 report, Table 8h",0.16399999999999998,0.00727593431022866,Services
+2021,services,0.172,"SKPG 2024 report, Table 8h",0.14800000000000002,0.1788555754933936,Services
+2022,services,0.1,"SKPG 2024 report, Table 8h",0.08900000000000001,0.12868195019159945,Services
+2023,services,0.111,"SKPG 2024 report, Table 8h",0.091,0.22091855345905875,Services
+2024,services,0.10099999999999999,"SKPG 2024 report, Table 8h",0.075,0.32614310634575405,Services
+2025,services,0.098,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,0.2641767712571168,Services
+2020,social_journalism,0.214,"SKPG 2024 report, Table 8h",0.16399999999999998,0.32778140785314824,"Social Sciences, Journalism & Information"
+2021,social_journalism,0.18899999999999997,"SKPG 2024 report, Table 8h",0.14800000000000002,0.29385321400942965,"Social Sciences, Journalism & Information"
+2022,social_journalism,0.099,"SKPG 2024 report, Table 8h",0.08900000000000001,0.11752112005407067,"Social Sciences, Journalism & Information"
+2023,social_journalism,0.111,"SKPG 2024 report, Table 8h",0.091,0.22091855345905875,"Social Sciences, Journalism & Information"
+2024,social_journalism,0.092,"SKPG 2024 report, Table 8h",0.075,0.22284982242386198,"Social Sciences, Journalism & Information"
+2025,social_journalism,0.09300000000000001,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,0.20628085568728816,"Social Sciences, Journalism & Information"
+2020,total,0.16399999999999998,"SKPG 2024 report, Chart 8.2a",0.16399999999999998,0.0,All fields
+2021,total,0.14800000000000002,"SKPG 2024 report, Chart 8.2a",0.14800000000000002,0.0,All fields
+2022,total,0.08900000000000001,"SKPG 2024 report, Chart 8.2a",0.08900000000000001,0.0,All fields
+2023,total,0.091,"SKPG 2024 report, Chart 8.2a",0.091,0.0,All fields
+2024,total,0.075,"SKPG 2024 report, Chart 8.2a",0.075,0.0,All fields
+2025,total,0.077,"Statistik Pendidikan Tinggi 2025, Table 7.3",0.077,0.0,All fields
