@@ -2,6 +2,8 @@
 
 A field-of-study risk index and short-range forecast built from the Ministry of Higher Education's Graduate Tracer Study, 2020-2025.
 
+**Live dashboard:** https://programriskmy.streamlit.app/ (adjust the index weights and switch forecast scenarios)
+
 The project began as a plan to forecast which individual degree programmes would become "irrelevant" by 2030. The public data cannot support that: the Ministry publishes outcomes for ten broad fields of study, one figure per year, and nothing by programme. This repository does what the data does support, and says where it stops.
 
 ## Findings
