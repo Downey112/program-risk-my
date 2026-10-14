@@ -43,7 +43,7 @@ def main() -> None:
     loadings, explained = ix.pca_weights(comp)
     ranks = ix.rank_uncertainty(score)
     table = comp.add_prefix("raw_").join(score.add_prefix("score_")).join(risk).join(ranks)
-    table["rank"] = table["risk_index"].rank(ascending=False).astype(int)
+    table["rank"] = table["risk_index"].rank(ascending=False, method="min").astype(int)
     table.insert(0, "label", table.index.map(pn.LABELS))
     table = table.sort_values("rank")
     table.index.name = "field"

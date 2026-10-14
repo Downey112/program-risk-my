@@ -11,11 +11,11 @@ The project began as a plan to forecast which individual degree programmes would
 ## Findings
 
 1. **No field is close to failing.** In 2025 every field had at least 88% of its labour-force graduates in work. The government's stated review threshold (employability under 30%) is not approached by any field.
-2. **Four fields sit at the risky end on most measures:** Services, Agriculture & Veterinary, Education, and Arts & Humanities. Which of them ranks first depends on the weights. Under 10,000 random weightings, the only other field that ever reaches the top three is Business & Law (25% of weightings).
+2. **Four fields sit at the risky end on most measures:** Services, Agriculture & Veterinary, Education, and Arts & Humanities. Which of them ranks first depends on the weights. Under 10,000 random weightings, the only other field that reaches the top three more than a handful of times is Business & Law (25% of weightings; Social Sciences does in 3 of 10,000).
 3. **Three fields are consistently safest:** Engineering, Health, and ICT stay in the bottom four in at least 90% of the random weightings.
 4. **The fields differ more in job quality than in finding work.** The not-working rate (2023-2025 average) spans 5% to 12% across fields. The share of employed graduates in jobs below skilled level spans 12% (Health) to 59% (Services), and the share of employed degree holders earning RM2,000 or less spans 14% (ICT) to 63% (Education).
 5. **The best forecast is "no change".** With six yearly points per field, assuming next year equals this year beat every trend method on the current series. Forecasts to 2026-2027 are therefore flat with wide bands. A 2030 forecast would not be credible and is not given.
-6. **A headline trap.** The Ministry changed its definition in 2024. Reading the published tables end to end shows the not-working rate falling from 13.1% (2023) to 7.5% (2024); on a like-for-like basis the fall was 9.1% to 7.5%.
+6. **A headline trap.** The Ministry changed its definition in 2024. Reading the published tables end to end, 10.2% of 2023 respondents were not working against 7.5% of the 2024 labour force, but those are different bases. On the 2024 definition, which the Ministry restated back to 2020, the fall was 9.1% to 7.5%.
 
 ![Field Risk Index](figures/risk_index.png)
 
@@ -23,7 +23,7 @@ The project began as a plan to forecast which individual degree programmes would
 
 Until 2023 the tracer tables counted every graduate who was not working, studying, training or waiting for a placement as "not working". From 2024 the Ministry aligned with the labour-force definition used by DOSM and the ILO: Graduate Employment (GE) is employed graduates as a share of graduates in the labour force, and graduates who are not looking for work are left out.
 
-The Ministry's 2024 tracer report restates 2020-2023 on the new definition, by field (Table 8h). That gives a consistent six-year series, 2020-2025, which is what the index and forecasts use. The earlier tables (2014-2023) are kept as a separate series and never joined to it. Over the four years where both exist, the earlier tables run 3.6 to 4.3 points higher nationally.
+The Ministry's 2024 tracer report restates 2020-2023 on the new definition, by field (Table 8h). That gives a consistent six-year series, 2020-2025, which is what the index and forecasts use. The earlier tables (2014-2023) are kept as a separate series and never joined to it. Over the four years where both exist, the earlier tables, taken as not working over employed plus not working, run 3.6 to 4.2 points higher nationally.
 
 ![National rate under both definitions](figures/national_two_definitions.png)
 
@@ -85,7 +85,7 @@ Five simple methods were compared by forecasting from every possible origin year
 
 Last value wins on the series being forecast, so it is used. Drift methods win on the earlier tables only because that window is dominated by one long fall; extrapolating it forward would assume the post-pandemic recovery repeats every year. ARIMA and Prophet, named in the original plan, were not fitted: six observations cannot identify their parameters.
 
-The band around each forecast is the 80th percentile of the method's absolute backtest error at the same horizon, pooled across fields and across both series. Including the earlier tables makes the band wider, because they contain the 2020 downturn and the 2022 recovery. The evidence behind it is thin: five forecast origins at one year ahead and four at two, and fields move together within a year, so the 54 and 36 errors are far from independent.
+The band around each forecast is the 80th percentile of the method's absolute backtest error at the same horizon, pooled across fields and across both series. Including the earlier tables makes the band wider, because they contain the 2020 downturn and the 2022 recovery. On the series being forecast the band is conservative: it contained 93% of the backtest errors one year ahead and all of them two years ahead (56-63% on the earlier tables). The evidence behind it is thin: five forecast origins at one year ahead and four at two, and fields move together within a year, so the 54 and 36 errors are far from independent.
 
 | Field | 2025 actual | 2026 forecast (80% band) | 2026 under a repeat of 2020 |
 |---|---|---|---|

@@ -86,7 +86,7 @@ def national() -> None:
         ax.annotate(f"{series.iloc[-1]:.1f}%", (series.index[-1], series.iloc[-1]), xytext=(7, -3), textcoords="offset points", color=INK)
     ax.set_ylim(0, 37)
     ax.set_xticks(range(2014, 2026))
-    ax.set_ylabel("Graduates not working, % of those\nworking or looking for work")
+    ax.set_ylabel("Graduates not working, % of\nemployed plus not working")
     ax.set_title("The 2024 redefinition lowered the rate by about four points")
     save(fig, "national_two_definitions.png")
 

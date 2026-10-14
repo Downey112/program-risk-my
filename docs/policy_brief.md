@@ -26,4 +26,4 @@
 
 ## Caution on headline figures
 
-The Ministry changed its employment definition in 2024. Comparing the published 2023 and 2024 tables directly overstates the improvement: the like-for-like change in the not-working rate was 9.1% to 7.5%, not 13.1% to 7.5%.
+The Ministry changed its employment definition in 2024. Comparing the published 2023 and 2024 tables directly overstates the improvement: they put 10.2% of 2023 respondents and 7.5% of the 2024 labour force as not working, which are different bases. On the 2024 definition, restated for 2023, the change was 9.1% to 7.5%.
