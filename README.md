@@ -142,3 +142,7 @@ streamlit run app.py              # dashboard with adjustable weights
 The processed tables are committed, so `analyse.py`, the tests and the dashboard run without the downloads.
 
 A short policy note based on these results is in [`docs/policy_brief.md`](docs/policy_brief.md).
+
+## License
+
+The code is under the [MIT License](LICENSE). The source figures belong to the Ministry of Higher Education Malaysia; the processed tables and charts here are derived from its published reports and remain subject to its terms.
