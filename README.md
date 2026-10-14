@@ -4,6 +4,8 @@ A field-of-study risk index and short-range forecast built from the Ministry of 
 
 **Live dashboard:** https://programriskmy.streamlit.app/ (adjust the index weights and switch forecast scenarios)
 
+[![The dashboard's report card: ten fields ranked by the risk index, with five measures per field](figures/dashboard.png)](https://programriskmy.streamlit.app/)
+
 The project began as a plan to forecast which individual degree programmes would become "irrelevant" by 2030. The public data cannot support that: the Ministry publishes outcomes for ten broad fields of study, one figure per year, and nothing by programme. This repository does what the data does support, and says where it stops.
 
 ## Findings
