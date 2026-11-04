@@ -128,7 +128,7 @@ The band around each forecast is the 80th percentile of the method's absolute ba
 
 ```bash
 python -m venv .venv
-.venv/Scripts/pip install -r requirements.txt      # .venv/bin/pip on macOS/Linux
+.venv/Scripts/pip install -r requirements-dev.txt  # .venv/bin/pip on macOS/Linux; requirements.txt alone runs just the dashboard
 
 python scripts/fetch_mohe.py      # download the statistics chapters (about 13 MB)
 python scripts/build_panel.py     # parse the yearly status tables

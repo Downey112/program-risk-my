@@ -1,0 +1,7 @@
+# Data pipeline (scripts/) and tests, on top of the dashboard runtime.
+-r requirements.txt
+pdfplumber>=0.11
+pypdfium2>=4.30
+requests>=2.31
+matplotlib>=3.9
+pytest>=8.0
